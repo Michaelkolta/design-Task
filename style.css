@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+
+/*  start Nav bar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 147, 225, 0.1);
+    width: 100%;
+    height: 56px;
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.navleft a{
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(141, 156, 163);
+}
+.navleft .active{
+    border-bottom: solid 2px rgb(123, 54, 135);
+}
+.navleft img {
+    align-items: center;
+}
+
+.navright {
+    display:flex;
+    align-items: center;
+    margin-right: 70px;
+    
+}
+.navright .login {
+ background-color: white;
+ border: none;
+ border-radius: 20px;
+ padding: 10px 40px;
+ font-size: 15px;
+
+}
+.navright .login:hover{
+    background-color: rgb(123, 54, 135);
+}
+
+
+/* End Nav bar*/
+
+/* top section*/
+
+.top_section{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.top_section img{
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+
+.top_section .top_sectionleft{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    
+    
+}
+.top_section .top_sectionleft h2{
+    font-size: 40px;
+    color: rgb(91, 106, 113);
+}
+.top_section .top_sectionleft p{
+
+    color: rgb(91, 106, 113); 
+}
+
+.top_section .top_sectionright{
+   position: absolute;
+   
+}
+.top_sectionright .img1{
+    position: absolute;
+    width: 700px;
+    height: 800px;
+    left: 200px;
+   
+ 
+ 
+}
+.top_sectionright .img2{
+    position: absolute;
+    width: 350px;
+    height: 620px;
+    top: 10px;
+    left: 350px ;
+   
+}
+.top_sectionright .img3{
+    
+    width: 600px;
+    top: 400px;
+    left: 300px;
+    
+} 
+
+
+/*end --top section*/
+
+
+   /* ================  */
+
+/*  start Middle  section 1*/
+
+.middle_section1{
+    position: relative;
+    
+}
+
+.middle_section1 .Waves{
+    position: absolute;
+    width: 69%;
+    bottom:650px;
+}
+.middle_section1 .img1{
+   display: flex;
+   justify-content:center;
+   margin-right: 700px;
+ 
+}
+
+
+   
+.middle_section1 .img2{
+  display: flex;
+ justify-content: center;
+
+}
+.middle_section1 .img3{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.middle_section1 .imgbet_sections{
+    position: absolute;
+    left: 300px;
+    bottom: 180px;
+    z-index: -1;
+    width: 500px;
+    
+
+}
+.middle_section1 p {
+    font-size: 14px;
+    color: rgb(91, 106, 113);
+    text-align: center;  
+}
+.middle_section1 h3{
+    font-size: 20px;
+    color: rgb(91, 106, 113);
+    text-align: center;
+
+}
+
+.middle_section1 .img3text{
+    width: 100%;
+    height: 100%;
+    
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+    
+}
+.middle_section1 .img3text .Kudzoka_logo {
+    position: absolute;
+    z-index: -1;
+    width: 350px;
+    height: 300px;
+}
+.middle_section1 .img3 h5{
+    font-size: 20px;
+ 
+}
+
+
+/* End Middle  section 1*/
+
+/* start Middle section 2*/
+.middle_section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.middle_section2 .middle_phototext{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(91, 106, 113);
+}
+.middle_section2 .middle_phototext h3{
+    font-size: 20px;
+}
+
+/* End Middle section 2*/
+
+/* start bottom section bg */
+
+.Bottom_section{
+    width: 100%; 
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    height: 500px;
+    
+    
+}
+
+ .Bottom_section .bgbuttom img {
+    position: absolute;
+    margin: 0px -140px -220px 0px;
+    width: 1400px;
+    bottom: 10px ;
+    right: 50px;
+    z-index: -1;
+   
+
+    
+    
+    
+}
+
+/* start bottom section links */
+.Bottom_section .storeslink{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    position: absolute;
+    margin-left:100px;
+    margin-top: 320px;
+
+    
+}
+
+/* start bottom div links playstore */
+
+.Bottom_section .storeslink .storelinkdp{
+    padding-top: 10px;
+    padding-right: 100px;
+    position: absolute;
+    border-radius: 12%;
+    border: none;
+
+
+}
+.Bottom_section .storeslink .storelinkdp:hover{
+    background-color:rgb(123, 54, 135); ;
+}
+
+.Bottom_section .storeslink .playstore p{
+    font-size: 10px;
+    color: black;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    left: 40px;
+    top: 15px;
+    
+}
+
+.Bottom_section .storeslink .playstore h3{
+    position: absolute;
+    font-size: 15px;
+    color:black;
+    z-index: 2;
+    top: 25px;
+    left: 40px;
+    
+    
+}
+
+.Bottom_section .storeslink .storelinkdp img{
+   margin-bottom: 10px;
+   margin-left: 7px;
+   
+}
+/* start bottom section links applestore */
+.Bottom_section .storeslink .storelinkd{
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 7px;
+    padding-bottom: 8px;
+    position: absolute;
+    border-radius: 12%;
+    border: none;
+    left: 150px;
+    
+   
+
+}
+.Bottom_section .storeslink .storelinkd:hover{
+    background-color:rgb(123, 54, 135); ;
+}
+
+.Bottom_section .storeslink .applestore p{
+    font-size: 10px;
+    color: black;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    left:193px;
+    top: 15px;
+    
+}
+
+.Bottom_section .storeslink .applestore h3{
+    position: absolute;
+    font-size: 15px;
+    color:black;
+    z-index: 2;
+    top: 25px;
+    left: 188px;
+    
+  
+}
+/* End bottom div links applestore */
+
+/* start bottom div soical media */
+
+.Bottom_section .Social_media{
+    position: absolute;
+    left: 90px;
+    bottom: 80px;
+    justify-content: space-around;
+    display: flex;
+    width: 10%;
+}
+.Bottom_section .Social_media img{
+    
+    z-index: 2;
+    
+}
+
+/* End bottom div soical media */
+
+
+/* start bottom div links nav */
+.Bottom_section .nav_bottoms{
+    width: 35% ;
+    position: absolute;
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    left: 72px;
+    bottom: 40px;
+    
+}
+.Bottom_section .nav_bottoms a{
+    text-decoration: none;
+    color: white;
+}
+/* End bottom div links nav */
+
+
+/* start bottom div img  */
+
+.Bottom_section .bottomimg{
+    position: absolute;
+    right: 100px;
+    bottom:0px;
+    margin-bottom: -10px;
+}
+/* End bottom div img  */
